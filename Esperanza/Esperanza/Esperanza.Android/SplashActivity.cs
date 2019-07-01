@@ -23,7 +23,7 @@ namespace Esperanza.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            System.Threading.Thread.Sleep(500);
+            System.Threading.Thread.Sleep(2000);
             StartActivity(typeof(MainActivity));
 
             // Create your application here

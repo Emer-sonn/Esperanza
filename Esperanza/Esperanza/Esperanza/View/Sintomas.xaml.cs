@@ -19,7 +19,13 @@ namespace Esperanza.View
 
         private void Sono(object sender, EventArgs e)
         {
-          
+            
+            //sono.BorderColor = Color.Red;
+            //System.Threading.Thread.Sleep(1000);
+            //sono.BorderColor = Color.Blue;
+
+
+
         }
     }
 }
