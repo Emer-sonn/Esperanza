@@ -16,5 +16,10 @@ namespace Esperanza.View
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Sono(object sender, EventArgs e)
+        {
+          
+        }
+    }
 }

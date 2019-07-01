@@ -22,12 +22,11 @@
     <MasterDetailPage.Detail>
         <ContentPage>
             <StackLayout BackgroundColor="White" Margin="0,20,0,20">
-                <Image Source="SenacLogo"  VerticalOptions="Center"/>
+                <Image Source="SenacLogo" />
                 <Label Text="Um projeto Senac MS" FontSize="Default"
                    HorizontalTextAlignment="Center"    />
-                <Image Source="seta"  VerticalOptions="Center"/>
-
-
+                <Image Source="seta.png"  VerticalOptions="Center"/>
+                <Label Text="Deslize a tela para a direita" VerticalOptions="Fill" HorizontalOptions="Center" />
             </StackLayout>
         </ContentPage>
     </MasterDetailPage.Detail>
