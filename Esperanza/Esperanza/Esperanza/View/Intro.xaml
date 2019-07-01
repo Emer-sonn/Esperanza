@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Esperanza.View.Intro">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="BoxView">
+                <Setter Property="Color" Value="LightSeaGreen" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView Margin="15">
+        <StackLayout>
+            <AbsoluteLayout>
+                <BoxView AbsoluteLayout.LayoutBounds="0, 10, 200, 5" />
+                <BoxView AbsoluteLayout.LayoutBounds="0, 20, 200, 5" />
+                <BoxView AbsoluteLayout.LayoutBounds="10, 0, 5, 65" />
+                <BoxView AbsoluteLayout.LayoutBounds="20, 0, 5, 65" />
+                <Label Text="O que é ELA?"
+                       FontSize="24"
+                       AbsoluteLayout.LayoutBounds="30, 25, AutoSize, AutoSize" TextColor="Black"/>
+            </AbsoluteLayout>
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="O"  FontAttributes="Italic"/>
+                        <Span Text=" primeiro passo para você conhecer melhor a esclerose lateral amiotrófica, e principalmente entender seus mecanismos e forma de atuação, é saber o que significa. E não esqueça: a qualidade de informação é a principal ferramenta para se conviver com esse tipo de doença."
+                             />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <StackLayout HorizontalOptions="Center">
+
+                <Label Text="O que significa ELA?"
+                       FontSize="24"  TextColor="Black"/>
+                <BoxView HeightRequest="2" />
+            </StackLayout>
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="ELA é a abreviatura de Esclerose Lateral Amiotrófica, uma doença cujo significado vem contido no próprio nome:"
+                             />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <!--<BoxView HeightRequest="3" />-->
+
+
+
+            <StackLayout Orientation="Horizontal">
+                <BoxView WidthRequest="4"
+                         Margin="0, 0, 10, 0" />
+                <Label>
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Esclerose"
+                                  FontAttributes="Italic" ForegroundColor="Black" />
+                            <Span Text=" significa endurecimento e cicatrização.&#10;" />
+                            <Span Text="Lateral"
+                                  FontAttributes="Italic" ForegroundColor="Black" />
+                            <Span Text="  refere-se ao endurecimento da porção lateral da medula espinhal.&#10;" />
+                            <Span Text="Amiotrófica"
+                                  FontAttributes="Italic" ForegroundColor="Black" />
+                            <Span Text=" é a fraqueza que resulta na atrofia do músculo. Ou seja, o volume real do tecido muscular diminui. " />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Dessa forma, Esclerose Lateral Amiotrófica significa fraqueza muscular secundária por comprometimento dos neurônios motores."
+                             />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <Label Text="Qual a característica principal da esclerose lateral amiotrófica?"
+                       FontSize="15"  TextColor="Black"/>
+            <BoxView HeightRequest="1" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="A degeneração progressiva dos neurônios motores no cérebro (neurônios motores superiores) e na medula espinhal
+                              (neurônios motores inferiores), ou seja, estes neurônios perdem sua capacidade de funcionar adequadamente (transmitir os impulsos nervosos)."
+                              />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <!--aqui-->
+            <Label Text="O que são neurônios motores?"
+                       FontSize="15"  TextColor="Black"/>
+            <BoxView HeightRequest="1" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Primeiro, é importante saber que neurônio é uma célula nervosa especializada, diferente das outras células do corpo humano porque apresenta extensões q ue realizam funções especiais. No caso dos neurônios motores, eles são responsáveis pelos movimentos de contração e relaxamento muscular."/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <!--aqui-->
+            <Label Text="O que essa degeneração provoca?"
+                       FontSize="15"  TextColor="Black"/>
+            <BoxView HeightRequest="1" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Quando os neurônios motores não podem mais enviar impulsos para os músculos, começa a ocorrer uma atrofia muscular, seguida de fraqueza muscular crescente. No caso da ELA, compromete o 1º neurônio superior e o 2º neurônio inferior."/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <!--aqui-->
+            <Label Text="Quais são as partes do corpo que a doença não afeta?"
+                       FontSize="15"  TextColor="Black"/>
+            <BoxView HeightRequest="1" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="O raciocínio intelectual, a visão, a audição, o paladar, o olfato e o tato. Na maioria dos casos, a esclerose lateral amiotrófica não afeta as funções sexual, intestinal e vesical."/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <!--aqui-->
+            <Label Text="Quem tem mais probabilidade de desenvolver ELA?"
+                       FontSize="15"  TextColor="Black"/>
+            <BoxView HeightRequest="1" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="O raciocínio intelectual, a visão, a audição, o paladar, o olfato e o tato. Na maioria dos casos, a esclerose lateral amiotrófica não afeta as funções sexual, intestinal e vesicalSegundo pesquisas, a ELA se desenvolve mais em homens do que em mulheres, mais em brancos do que em negros, e geralmente está associada à faixa etária acima de 60 anos."/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <!--aqui-->
+            <Label Text="Como o paciente com ELA costuma reagir em relação ao seu dia-a-dia?"
+                       FontSize="15"  TextColor="Black"/>
+            <BoxView HeightRequest="1" />
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Geralmente, os pacientes com ELA se cercam de pessoas ligadas à vida, raramente ficam deprimidos, são pessoas especiais e apaixonantes, buscam esclarecimento e novas possibilidades de tratamento para a doença, e principalmente lutam constantemente pela dignidade de vida."/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--aqui-->
+            <Label HorizontalOptions="Center"
+       VerticalOptions="CenterAndExpand">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Mais informações " />
+                        <Span Text="Tudo sobre ELA"
+                  TextColor="Blue"
+                  TextDecorations="Underline">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding ClickCommand}"
+                                          CommandParameter="http://www.tudosobreela.com.br" />
+                            </Span.GestureRecognizers>
+                        </Span>
+
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
