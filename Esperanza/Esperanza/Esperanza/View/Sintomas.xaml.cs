@@ -72,14 +72,14 @@ namespace Esperanza.View
 
         async void Coriza(object sender, EventArgs e)
         {
-            x = await DisplayActionSheet("O quanto o seu nariz esta escorrendo?", "Sair", null, "Muito", "Médio", "Pouco");
+            x = await DisplayActionSheet("Seu nariz esta escorrendo?", "Sair", null, "Muito", "Médio", "Pouco");
             if (x == "Muito")
             {
                 await CrossTextToSpeech.Current.Speak("Escorrendo muito");
             }
             if (x == "Médio")
             {
-                await CrossTextToSpeech.Current.Speak("escorrendo");
+                await CrossTextToSpeech.Current.Speak("sim, esta escorrendo");
             }
             if (x == "Pouco")
             {

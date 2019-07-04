@@ -16,5 +16,7 @@ namespace Esperanza.View
 		{
 			InitializeComponent ();
 		}
-	}
+
+        
+    }
 }

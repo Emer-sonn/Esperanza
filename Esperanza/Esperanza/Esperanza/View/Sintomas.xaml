@@ -20,53 +20,67 @@
                     <Image Source="sono.jgp" Grid.Column="0" Grid.Row="0"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Sono" Grid.Column="0" Grid.Row="0" />
+                <Label Text="Sonolência" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="End"/>
 
                 <Frame x:Name="tontuta"  Grid.Column="1" Grid.Row="0" HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="tontuta.jgp" Grid.Column="1" Grid.Row="0"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Tontuta" Grid.Column="1" Grid.Row="0" />
+                <Label Text="Tontuta" Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="End"/>
 
 
                 <Frame x:Name="taquicardia"  Grid.Column="2" Grid.Row="0"  HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="taquicardia.jgp" Grid.Column="2" Grid.Row="0"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Taquicardia" Grid.Column="2" Grid.Row="0" />
+                <Label Text="Taquicardia" Grid.Column="2" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="End"/>
+
+
 
 
                 <Frame x:Name="coriza" Grid.Column="0" Grid.Row="1" HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="coriza.jgp" Grid.Column="0" Grid.Row="1"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Coriza" Grid.Column="0" Grid.Row="1" />
+                <Label Text="Coriza" Grid.Column="0" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="End"/>
+
 
 
                 <Frame x:Name="dordecabeca" Grid.Column="1" Grid.Row="1" HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="dordecabeca.jgp" Grid.Column="1" Grid.Row="1"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Dordecabeca" Grid.Column="1" Grid.Row="1" />
+                <Label Text="Dor de Cabeça" Grid.Column="1" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="End"/>
+
 
 
                 <Frame x:Name="dordedente" Grid.Column="2" Grid.Row="1" HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="dordedente.jgp" Grid.Column="2" Grid.Row="1"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Dordedente" Grid.Column="2" Grid.Row="1" />
+                <Label Text="Dor de dente" Grid.Column="2" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="End"/>
+
 
 
                 <Frame x:Name="dordegarganta" Grid.Column="0" Grid.Row="2" HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="dordegarganta.jgp" Grid.Column="0" Grid.Row="2"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Dordegarganta" Grid.Column="0" Grid.Row="2" />
+                <Label Text="Dor de garganta" Grid.Column="0" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="End"/>
 
 
                 <Frame x:Name="febre" Grid.Column="1" Grid.Row="2"  HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="febre.jgp" Grid.Column="1" Grid.Row="2"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Febre" Grid.Column="1" Grid.Row="2" />
+                <Label Text="Febre" Grid.Column="1" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="End"/>
 
 
                 <Frame x:Name="faltadear" Grid.Column="2" Grid.Row="2" HasShadow="False" BorderColor="Transparent" BackgroundColor="Transparent" CornerRadius="25" WidthRequest="100" HeightRequest="100">
                     <Image Source="faltadear.jpg" Grid.Column="2" Grid.Row="2"/>
                 </Frame>
                 <Button BackgroundColor="Transparent" Clicked="Faltadear" Grid.Column="2" Grid.Row="2" />
+                <Label Text="Falta de ar" Grid.Column="2" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="End"/>
 
 
             </Grid>
