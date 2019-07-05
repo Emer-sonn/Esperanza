@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj": {}
+    "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj": {
+    "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj",
+        "projectUniqueName": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj",
         "projectName": "Esperanza.Android",
-        "projectPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj",
+        "projectPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\Esperanza.Android.csproj",
         "packagesPath": "C:\\Users\\Emersonn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\obj\\",
+        "outputPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj": {
-                "projectPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj"
+              "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj": {
+                "projectPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj": {
+    "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
+        "projectUniqueName": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
         "projectName": "Esperanza",
-        "projectPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
+        "projectPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
         "packagesPath": "C:\\Users\\Emersonn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\obj\\",
+        "outputPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

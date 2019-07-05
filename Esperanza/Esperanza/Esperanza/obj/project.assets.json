@@ -516,11 +516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
+      "projectUniqueName": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
       "projectName": "Esperanza",
-      "projectPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
+      "projectPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
       "packagesPath": "C:\\Users\\Emersonn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\obj\\",
+      "outputPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
