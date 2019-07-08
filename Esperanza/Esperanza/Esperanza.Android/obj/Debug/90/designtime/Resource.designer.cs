@@ -2388,13 +2388,7 @@ namespace Esperanza.Droid
 			public const int FrenteCinza = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int icon144 = 2130771984;
-			
-			// aapt resource value: 0x7F010011
-			public const int icon72 = 2130771985;
-			
-			// aapt resource value: 0x7F010012
-			public const int iconEsperanza = 2130771986;
+			public const int iconEsperanza = 2130771984;
 			
 			// aapt resource value: 0x7F090054
 			public const int ic_audiotrack_dark = 2131296340;
@@ -2927,11 +2921,11 @@ namespace Esperanza.Droid
 			// aapt resource value: 0x7F090104
 			public const int ic_vol_type_tv_light = 2131296516;
 			
-			// aapt resource value: 0x7F010013
-			public const int Logo = 2130771987;
+			// aapt resource value: 0x7F010011
+			public const int Logo = 2130771985;
 			
-			// aapt resource value: 0x7F010014
-			public const int Logo1 = 2130771988;
+			// aapt resource value: 0x7F010012
+			public const int logo2 = 2130771986;
 			
 			// aapt resource value: 0x7F090105
 			public const int mr_button_connected_dark = 2131296517;
@@ -3032,23 +3026,23 @@ namespace Esperanza.Droid
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
+			// aapt resource value: 0x7F010013
+			public const int SenacLogo = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int seta = 2130771988;
+			
 			// aapt resource value: 0x7F010015
-			public const int SenacLogo = 2130771989;
+			public const int sintomas = 2130771989;
 			
 			// aapt resource value: 0x7F010016
-			public const int seta = 2130771990;
+			public const int sono = 2130771990;
 			
 			// aapt resource value: 0x7F010017
-			public const int sintomas = 2130771991;
+			public const int taquicardia = 2130771991;
 			
 			// aapt resource value: 0x7F010018
-			public const int sono = 2130771992;
-			
-			// aapt resource value: 0x7F010019
-			public const int taquicardia = 2130771993;
-			
-			// aapt resource value: 0x7F010020
-			public const int tontuta = 2130772000;
+			public const int tontuta = 2130771992;
 			
 			// aapt resource value: 0x7F090069
 			public const int tooltip_frame_dark = 2131296361;

@@ -14,7 +14,7 @@ using Android.Widget;
 namespace Esperanza.Droid
 {
     [Activity(Theme ="@style/emerson.Theme",
-        Icon = "@drawable/iconEsperanza",
+        Icon = "@drawable/logo2",
         NoHistory =true,
         MainLauncher =true
         )]

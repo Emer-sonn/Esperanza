@@ -3,10 +3,29 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Esperanza.View.Sobre">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="white">
-            <Image Source="fabricalogo"/>
+        <ScrollView Orientation="Vertical">
+        <StackLayout Padding="15,15,15,15">
+            <Image Source="SenacLogo"/>
+            <Label Text="Esperanza" FontSize="25" TextColor="LightSeaGreen" VerticalTextAlignment="Center" Margin="0,30,0,0" VerticalOptions="Center"/>
 
+            <Label Text="       Este projeto é a união de esforços dos alunos da Fabrica de Software com a aluna do curso de técnico em enfermagem do SENAC MS." Margin="0,20,0,0" TextColor="LightSeaGreen"/>
+
+
+            
+            <Label Text="Técnico em enfermagem " Margin="0,30,0,0"/>
+            <Label Text="  Laudicéia Iop Pereira Fernandes" FontSize="15" TextColor="LightSeaGreen" />
+            <Label Text="Técnico em Informática para Internet"/>
+            <Label Text="  Emerson Diniz Leme" FontSize="15" TextColor="LightSeaGreen" />
+            <Label Text="  Wendel Lemes" FontSize="15" TextColor="LightSeaGreen" />
+            <Label Text="  Fernanda Souza" FontSize="15" TextColor="LightSeaGreen" />
+            <Label Text="Docentes"/>
+            <Label Text="  Sandra Demetrio Lara" FontSize="15" TextColor="LightSeaGreen" />
+            <Label Text="  Elton Naoki" FontSize="15" TextColor="LightSeaGreen" />
+                
+           
 
         </StackLayout>
+        </ScrollView>
+
     </ContentPage.Content>
 </ContentPage>

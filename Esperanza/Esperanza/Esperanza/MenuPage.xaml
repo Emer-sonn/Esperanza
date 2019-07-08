@@ -7,7 +7,7 @@
         <ContentPage Title="Menu">
             
                 <StackLayout BackgroundColor="White" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
-                <Image Source="Logo1.png" HeightRequest="230" />
+                <Image Source="logo2.png" HeightRequest="180" />
 
                 <Button Text="Intro" Clicked="Introbtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
                 <Button Text="Sobre" Clicked="Sobrebtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>

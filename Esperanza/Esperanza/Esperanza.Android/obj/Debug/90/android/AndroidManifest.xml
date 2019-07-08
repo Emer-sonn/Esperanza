@@ -4,9 +4,9 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="Esperanza.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/iconesperanza" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/iconesperanza" android:label="Esperanza" android:theme="@style/MainTheme" android:name="md5d8404fcb9ba03eecbadc7913fe709901.MainActivity" />
-    <activity android:icon="@drawable/iconesperanza" android:noHistory="true" android:theme="@style/emerson.Theme" android:name="md5d8404fcb9ba03eecbadc7913fe709901.SplashActivity">
+  <application android:label="Esperanza.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/logo2" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/logo2" android:label="Esperanza" android:theme="@style/MainTheme" android:name="md5d8404fcb9ba03eecbadc7913fe709901.MainActivity" />
+    <activity android:icon="@drawable/logo2" android:noHistory="true" android:theme="@style/emerson.Theme" android:name="md5d8404fcb9ba03eecbadc7913fe709901.SplashActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
