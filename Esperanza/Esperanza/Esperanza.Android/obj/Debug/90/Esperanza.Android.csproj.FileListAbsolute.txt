@@ -896,3 +896,5 @@ E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\stamp\
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\frente.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\costas.png
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\costas1.png
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\logoz.png

@@ -36,3 +36,4 @@ E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza\obj\Debug\netstandard2.0\Es
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza\obj\Debug\netstandard2.0\XamlC.stamp
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza\obj\Debug\netstandard2.0\Esperanza.dll
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza\obj\Debug\netstandard2.0\Esperanza.pdb
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza\obj\Debug\netstandard2.0\View\Costas.xaml.g.cs

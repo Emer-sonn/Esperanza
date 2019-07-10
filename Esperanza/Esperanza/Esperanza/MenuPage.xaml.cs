@@ -48,5 +48,9 @@ namespace Esperanza
         {
             Detail = new Sintomas();
         }
+        private void Costasbtn(object sender, EventArgs e)
+        {
+            Detail = new Costas();
+        }
     }
 }

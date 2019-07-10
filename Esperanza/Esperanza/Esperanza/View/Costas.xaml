@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Esperanza.View.Costas">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <Image  AbsoluteLayout.LayoutBounds="0,0,1,1"        AbsoluteLayout.LayoutFlags="All" Source="Costas1.png"></Image>
+
+            <Button x:Name="cabeca" Clicked="Cabeca_Clicked" AbsoluteLayout.LayoutBounds="0.5,0.03,100,100"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="peito" Clicked="Peito_Clicked"  AbsoluteLayout.LayoutBounds="0.51,0.2,137,109"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="barriga"  Clicked="Barriga_Clicked" AbsoluteLayout.LayoutBounds="0.51,0.3,137,109"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <!-- Perna direita -->
+            <Button x:Name="PernaDireita" Clicked="PernaDireita_Clicked" AbsoluteLayout.LayoutBounds="0.60,0.6,77,107"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="JoelhoDireita"  Clicked="JoelhoDireita_Clicked" AbsoluteLayout.LayoutBounds="0.58,0.73,56,59"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="CanelaDireita" Clicked="CanelaDireita_Clicked" AbsoluteLayout.LayoutBounds="0.58,0.89,70,140"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="PeDireita" Clicked="PeDireita_Clicked" AbsoluteLayout.LayoutBounds="0.55,0.97,58,45"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <!-- Perna Esquerda -->
+            <Button x:Name="PernaEsquerda" Clicked="PernaEsquerda_Clicked" AbsoluteLayout.LayoutBounds="0.43,0.6,77,107"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="JoelhoEsquerda"  Clicked="JoelhoEsquerda_Clicked" AbsoluteLayout.LayoutBounds="0.43,0.73,56,59"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="CanelaEsquerda" Clicked="CanelaEsquerda_Clicked" AbsoluteLayout.LayoutBounds="0.43,0.89,70,140"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button x:Name="PeEsquerda" Clicked="PeEsquerda_Clicked" AbsoluteLayout.LayoutBounds="0.43,0.97,58,45"   AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <!--Braço Esquerdo-->
+            <Button  x:Name="BracoEsquedo" Clicked="BracoEsquedo_Clicked" AbsoluteLayout.LayoutBounds="0.71,.22,53,125"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button  x:Name="AnteBracoEsquedo" Clicked="AnteBracoEsquedo_Clicked" AbsoluteLayout.LayoutBounds="0.75,.40,50,88"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button  x:Name="MaoEsquedo" Clicked="MaoEsquedo_Clicked" AbsoluteLayout.LayoutBounds="0.80,.53,53,82"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <!--Braço Direito-->
+            <Button  x:Name="BracoDireito" Clicked="BracoDireito_Clicked" AbsoluteLayout.LayoutBounds="0.30,.22,53,125"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button  x:Name="AnteBracoDireito" Clicked="AnteBracoDireito_Clicked" AbsoluteLayout.LayoutBounds="0.30,.40,50,88"   AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+            <Button  x:Name="MaoDireito" Clicked="MaoDireito_Clicked" AbsoluteLayout.LayoutBounds="0.25,.53,53,82"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+
+            <Button x:Name="quadril"  Clicked="Quadril_Clicked" AbsoluteLayout.LayoutBounds="0.52,0.45,139,113"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>
+
+            <!--<Button x:Name="zero" Text="Zero" Clicked="Zero_Clicked" AbsoluteLayout.LayoutBounds="0,0,100,100"  AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="Transparent"/>-->
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

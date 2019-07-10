@@ -7,13 +7,14 @@
         <ContentPage Title="Menu">
             
                 <StackLayout BackgroundColor="White" Orientation="Vertical" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
-                <Image Source="logo2.png" HeightRequest="180" Aspect="AspectFit"  />
+                <Image Source="logoz.png" HeightRequest="180" Aspect="AspectFit"  />
 
                 <Button Text="Intro" Clicked="Introbtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
                 <Button Text="Sobre" Clicked="Sobrebtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
                 <Button Text="Falar" Clicked="Falabtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
                 <Button Text="Frases" Clicked="Frasesbtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
                 <Button Text="Corpo" Clicked="Corpobtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
+                <Button Text="Costas" Clicked="Costasbtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
                 <Button Text="Sintomas" Clicked="Sintomasbtn" BorderRadius="25" BackgroundColor="LightSeaGreen" Margin="15,0,15,10"/>
             </StackLayout>
             
