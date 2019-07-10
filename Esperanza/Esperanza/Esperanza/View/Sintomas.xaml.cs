@@ -41,15 +41,15 @@ namespace Esperanza.View
             x = await DisplayActionSheet("Qual a intensidade da sua tontura ?", "Sair", null, "Muito", "Médio", "Pouco");
             if (x == "Muito")
             {
-                await CrossTextToSpeech.Current.Speak("Estou muito Tonto");
+                await CrossTextToSpeech.Current.Speak("Estou me sentindo muito Tonto");
             }
             if (x == "Médio")
             {
-                await CrossTextToSpeech.Current.Speak("Estou tonto");
+                await CrossTextToSpeech.Current.Speak("Estou me sentindo tonto");
             }
             if (x == "Pouco")
             {
-                await CrossTextToSpeech.Current.Speak("Estou com pouco");
+                await CrossTextToSpeech.Current.Speak("Estoume sentindo um pouco tonto");
             }
         }
 
@@ -58,15 +58,15 @@ namespace Esperanza.View
             x = await DisplayActionSheet("Você esta seu coração?", "Sair", null, "Muito", "Médio", "Pouco");
             if (x == "Muito")
             {
-                await CrossTextToSpeech.Current.Speak("Muito acelerado");
+                await CrossTextToSpeech.Current.Speak("meu coração está muito acelerado");
             }
             if (x == "Médio")
             {
-                await CrossTextToSpeech.Current.Speak("Acelerado");
+                await CrossTextToSpeech.Current.Speak("meu coração está acelerado");
             }
             if (x == "Pouco")
             {
-                await CrossTextToSpeech.Current.Speak("Esta fraco");
+                await CrossTextToSpeech.Current.Speak("meu coração está fraco");
             }
         }
 
@@ -75,21 +75,21 @@ namespace Esperanza.View
             x = await DisplayActionSheet("Seu nariz esta escorrendo?", "Sair", null, "Muito", "Médio", "Pouco");
             if (x == "Muito")
             {
-                await CrossTextToSpeech.Current.Speak("Escorrendo muito");
+                await CrossTextToSpeech.Current.Speak("meu nariz está escorrendo muito");
             }
             if (x == "Médio")
             {
-                await CrossTextToSpeech.Current.Speak("sim, esta escorrendo");
+                await CrossTextToSpeech.Current.Speak("meu nariz está escorrendo");
             }
             if (x == "Pouco")
             {
-                await CrossTextToSpeech.Current.Speak("Escorrendo um pouco");
+                await CrossTextToSpeech.Current.Speak("meu nariz está escorrendo um pouco");
             }
         }
 
         async void Dordecabeca(object sender, EventArgs e)
         {
-            x = await DisplayActionSheet("Qaunto esta a sua dor de cabeça?", "Sair", null, "Muito", "Médio", "Pouco");
+            x = await DisplayActionSheet("Quanto esta a sua dor de cabeça?", "Sair", null, "Muito", "Médio", "Pouco");
             if (x == "Muito")
             {
                 await CrossTextToSpeech.Current.Speak("Estou com muita dor de cabeça");
@@ -151,7 +151,7 @@ namespace Esperanza.View
             }
             if (x == "Pouco")
             {
-                await CrossTextToSpeech.Current.Speak("Estou com pouca febre");
+                await CrossTextToSpeech.Current.Speak("Estou febril");
             }
         }
 

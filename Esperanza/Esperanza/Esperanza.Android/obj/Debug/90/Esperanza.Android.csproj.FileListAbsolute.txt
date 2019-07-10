@@ -497,8 +497,6 @@ E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\mi
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\frentecinza.png
-E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\logo.png
-E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\iconesperanza.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\sintomas.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\senaclogo.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\fabricalogo.png
@@ -512,6 +510,8 @@ E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\dr
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\sono.jpg
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\taquicardia.jpg
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\tontuta.jpg
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\logo.png
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\logo2.png
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\R.cs.flag
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\R.txt
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\uploadflags.txt
@@ -894,4 +894,5 @@ E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\stamp\
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
-E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\logo2.png
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\frente.png
+E:\Prototipo\Esperanza\Esperanza\Esperanza\Esperanza.Android\obj\Debug\90\res\drawable\costas.png
