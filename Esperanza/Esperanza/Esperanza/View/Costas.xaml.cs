@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Plugin.TextToSpeech;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,99 +13,368 @@ namespace Esperanza.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Costas : ContentPage
     {
+        string x;
         public Costas()
         {
             InitializeComponent();
         }
 
-        private void Cabeca_Clicked(object sender, EventArgs e)
+        async void Nuca_Clicked(object sender, EventArgs e)
         {
+            x = await DisplayActionSheet("Minha nuca está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha nuca está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha nuca está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha nuca está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha nuca está Desconfortavel");
+            }
 
         }
 
-        private void Peito_Clicked(object sender, EventArgs e)
+        async void Costas_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minhas costas estão:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas costas estão doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas costas estão Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas costas estão Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas costas estão Desconfortavel");
+            }
         }
 
-        private void Barriga_Clicked(object sender, EventArgs e)
+        async void PernaDireita_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minha perna está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está Desconfortavel");
+            }
         }
 
-        private void PernaDireita_Clicked(object sender, EventArgs e)
+        async void JoelhoDireita_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("A parte posterior do  joelho está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do joelho está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do  joelhoa está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do  joelho está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do  joelho está Desconfortavel");
+            }
         }
 
-        private void JoelhoDireita_Clicked(object sender, EventArgs e)
+        async void PanturilhaDireita_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minha panturilha está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está Desconfortavel");
+            }
         }
 
-        private void CanelaDireita_Clicked(object sender, EventArgs e)
+        async void PeDireita_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Meu pé está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está Desconfortavel");
+            }
         }
 
-        private void PeDireita_Clicked(object sender, EventArgs e)
+        async void PernaEsquerda_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minha perna está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha perna está Desconfortavel");
+            }
         }
 
-        private void PernaEsquerda_Clicked(object sender, EventArgs e)
+        async void JoelhoEsquerda_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("A parte posterior do  joelho está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do joelho está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do  joelhoa está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do  joelho está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("A parte posterior do  joelho está Desconfortavel");
+            }
         }
 
-        private void JoelhoEsquerda_Clicked(object sender, EventArgs e)
+        async void PanturilhaEsquerda_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minha panturilha está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha panturilha está Desconfortavel");
+            }
         }
 
-        private void CanelaEsquerda_Clicked(object sender, EventArgs e)
+        async void PeEsquerda_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Meu pé está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu pé está Desconfortavel");
+            }
         }
 
-        private void PeEsquerda_Clicked(object sender, EventArgs e)
+        async void BracoEsquedo_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Meu braço está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está Desconfortavel");
+            }
         }
 
-        private void BracoEsquedo_Clicked(object sender, EventArgs e)
+        async void AnteBracoEsquedo_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Meu  antebraço está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está Desconfortavel");
+            }
         }
 
-        private void AnteBracoEsquedo_Clicked(object sender, EventArgs e)
+        async void MaoEsquedo_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minha mão está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está Desconfortavel");
+            }
         }
 
-        private void MaoEsquedo_Clicked(object sender, EventArgs e)
+        async void BracoDireito_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Meu braço está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu braço está Desconfortavel");
+            }
         }
 
-        private void BracoDireito_Clicked(object sender, EventArgs e)
+        async void AnteBracoDireito_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Meu  antebraço está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Meu antebraço está Desconfortavel");
+            }
         }
 
-        private void AnteBracoDireito_Clicked(object sender, EventArgs e)
+        async void MaoDireito_Clicked(object sender, EventArgs e)
         {
-
+            x = await DisplayActionSheet("Minha mão está:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minha mão está Desconfortavel");
+            }
         }
 
-        private void MaoDireito_Clicked(object sender, EventArgs e)
+        async void Nadegas_Clicked(object sender, EventArgs e)
         {
-
-        }
-
-        private void Quadril_Clicked(object sender, EventArgs e)
-        {
-
+            x = await DisplayActionSheet("Minhas Nadegas estão:", "Cancel", null, "Doendo?", "Coçando?", "Dormente?", "Desconfortavel?");
+            if (x == "Doendo?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas Nadegas estão doendo");
+            }
+            if (x == "Coçando?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas Nadegas estão Coçando");
+            }
+            if (x == "Dormente?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas Nadegas estão Dormente");
+            }
+            if (x == "Desconfortavel?")
+            {
+                await CrossTextToSpeech.Current.Speak("Minhas Nadegas estão Desconfortavel");
+            }
         }
     }
 }

@@ -17,7 +17,7 @@
             <Label Text="Técnico em Informática para Internet"/>
             <Label Text="  Emerson Diniz Leme" FontSize="15" TextColor="LightSeaGreen" />
             <Label Text="  Wendel Lemes" FontSize="15" TextColor="LightSeaGreen" />
-            <Label Text="  Fernanda Souza" FontSize="15" TextColor="LightSeaGreen" />
+            
             <Label Text="Docentes"/>
             <Label Text="  Sandra Demetrio Lara" FontSize="15" TextColor="LightSeaGreen" />
             <Label Text="  Elton Naoki" FontSize="15" TextColor="LightSeaGreen" />
