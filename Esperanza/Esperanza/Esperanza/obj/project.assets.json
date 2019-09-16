@@ -509,27 +509,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emersonn\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Fabrica\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
+      "projectUniqueName": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
       "projectName": "Esperanza",
-      "projectPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
-      "packagesPath": "C:\\Users\\Emersonn\\.nuget\\packages\\",
-      "outputPath": "E:\\Prototipo\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\obj\\",
+      "projectPath": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj",
+      "packagesPath": "C:\\Users\\Fabrica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Emersonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Fabrica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

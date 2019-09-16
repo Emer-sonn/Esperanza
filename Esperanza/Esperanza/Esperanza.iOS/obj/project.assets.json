@@ -1079,26 +1079,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Emersonn\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Fabrica\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.iOS\\Esperanza.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.iOS\\Esperanza.iOS.csproj",
       "projectName": "Esperanza.iOS",
-      "projectPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.iOS\\Esperanza.iOS.csproj",
-      "packagesPath": "C:\\Users\\Emersonn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.iOS\\Esperanza.iOS.csproj",
+      "packagesPath": "C:\\Users\\Fabrica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Emersonn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Fabrica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1110,8 +1105,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj": {
-              "projectPath": "C:\\Users\\Emersonn\\Desktop\\ProjetoEsperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj"
+            "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj": {
+              "projectPath": "C:\\Users\\Fabrica\\Desktop\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza\\Esperanza.csproj"
             }
           }
         }
