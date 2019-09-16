@@ -171,5 +171,17 @@ namespace Esperanza.View
                 await CrossTextToSpeech.Current.Speak("Estou com um pouco de falta de ar");
             }
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Send(this, "Retrato");
+        }
+
+        //protected override void OnDisappearing()
+        //{
+        //    base.OnDisappearing();
+        //    MessagingCenter.Send(this, "Paisagem"); //during page close setting back to portrait 
+        //}
     }
 }

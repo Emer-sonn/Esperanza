@@ -41,4 +41,34 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="MenuPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Corpo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Falar.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Frases.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Intro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Sintomas.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="View\Sobre.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
 </Project>
