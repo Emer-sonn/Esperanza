@@ -27,5 +27,17 @@ namespace Esperanza.View
 
 
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Send(this, "Retrato");
+        }
+
+        //protected override void OnDisappearing()
+        //{
+        //    base.OnDisappearing();
+        //    MessagingCenter.Send(this, "Paisagem"); //during page close setting back to portrait 
+        //}
     }
 }

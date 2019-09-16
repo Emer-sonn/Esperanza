@@ -24,5 +24,11 @@ namespace Esperanza.View
             await CrossTextToSpeech.Current.Speak(x);
 
         }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            MessagingCenter.Send(this, "Paisagem");
+        }
     }
 }
