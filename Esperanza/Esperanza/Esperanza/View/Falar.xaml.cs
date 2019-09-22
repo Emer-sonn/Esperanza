@@ -20,8 +20,15 @@ namespace Esperanza.View
         private async void Falar_Clicked(object sender, EventArgs e)
         {
             var x = texto.Text;
-          
-            await CrossTextToSpeech.Current.Speak(x);
+
+            if (String.IsNullOrEmpty(x))
+            {
+                await CrossTextToSpeech.Current.Speak("Digite alguma coisa");
+            }
+            else
+            {
+                await CrossTextToSpeech.Current.Speak(x);
+            }
 
         }
 
