@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="sqlite-net-pcl" Version="1.7.302-beta" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.6.292" />
     <PackageReference Include="Xam.Plugins.TextToSpeech" Version="4.1.0.1-beta" />
     <PackageReference Include="Xamarin.Forms" Version="4.3.0.819712-pre2" />
   </ItemGroup>
